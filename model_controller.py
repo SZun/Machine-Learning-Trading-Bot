@@ -42,7 +42,7 @@ class Model_Controller:
             linestyle=(0, (3, 1, 1, 1, 1, 1)),
         );
         plt.title(f'Actual vs {self.model_type} Strategy Returns 2015-2020', fontsize=24, fontweight='bold')
-        plt.grid(color='#eeeeee', linestyle='-')
+        plt.grid(color='#eeeeee', linestyle='-', linewidth=1.25)
         legend = plt.legend(title='Returns', fontsize=12, loc=4)
         plt.setp(legend.get_title(),fontsize=16, fontweight='bold')
         plt.xlabel('Date', fontsize=18, fontweight='bold')
