@@ -12,7 +12,7 @@ The speed of these transactions gave your firm a competitive advantage early on.
 
 ### Performance Conclusions
 
-From 2015 through mid/late 2017 the strategy returns for the baseline algorithm performed the same as the actual returns. From mid/late 2017 through mid-2018 the strategy returns for the baseline algorithm performed worse than the actual returns. And from mid-2018 through 2021 the strategy returns of the baseline algorithm performed better than that of the actual returns. From this we can colclude that although the baseline algorithms strategy returns did perform better than that of the actual returns for almost three years, since the baseline algorithms strategy returns were worse or equal to that of the actual returns for the vast majority of the timeframe, that the baseline algorihtm did not perform well and instead has a lot of work to be done to improve it.
+From 2015 through mid/late 2017 the strategy returns for the baseline algorithm performed the same as the actual returns. From mid/late 2017 through mid-2018 the strategy returns for the baseline algorithm performed worse than the actual returns. And from mid-2018 through 2021 the strategy returns of the baseline algorithm performed better than that of the actual returns. From this we can colclude that although the baseline algorithms strategy returns did perform better than that of the actual returns for almost three years, since the baseline algorithms strategy returns were worse or equal to that of the actual returns for the vast majority of the timeframe, we can conclude that the baseline algorithm did not perform well and instead has a lot of work to be done to improve it.
 
 ## Training-Window Tuning
 
@@ -20,7 +20,8 @@ From 2015 through mid/late 2017 the strategy returns for the baseline algorithm 
 
 ### Performance Conclusions
 
-From 2015 through mid/late 2017 the strategy returns for the baseline algorithm performed the same as the actual returns. From mid/late 2017 through mid-2018 the strategy returns for the baseline algorithm performed worse than the actual returns. And from mid-2018 through 2021 the strategy returns of the baseline algorithm performed better than that of the actual returns. From this we can colclude that although the baseline algorithms strategy returns did perform better than that of the actual returns for almost three years, since the baseline algorithms strategy returns were worse or equal to that of the actual returns for the vast majority of the timeframe, that the baseline algorihtm did not perform well and instead has a lot of work to be done to improve it.
+The change made to the training window was to decrease the offset from 3 months to 1 month. The resulting impact of decreasing the training window from 3 months to 1 month was that the strategy performed better than both the actual returns as well as the original strategy returns. This trend of performing better than both the acutal returns and the original strategy returns of the original abseline algorithm can be seen throughout the entire timeframe (2015-2021). Due to the exceptional perormance of this tuned algorithm we can conclude that there may be some room for improvement, but we have a solid algorithm that has high performance.
+
 
 ## SMA-Window Tuning
 
@@ -28,7 +29,7 @@ From 2015 through mid/late 2017 the strategy returns for the baseline algorithm 
 
 ### Performance Conclusions
 
-From 2015 through mid/late 2017 the strategy returns for the baseline algorithm performed the same as the actual returns. From mid/late 2017 through mid-2018 the strategy returns for the baseline algorithm performed worse than the actual returns. And from mid-2018 through 2021 the strategy returns of the baseline algorithm performed better than that of the actual returns. From this we can colclude that although the baseline algorithms strategy returns did perform better than that of the actual returns for almost three years, since the baseline algorithms strategy returns were worse or equal to that of the actual returns for the vast majority of the timeframe, that the baseline algorihtm did not perform well and instead has a lot of work to be done to improve it.
+The change made to the SMA window was to decrease the SMA Slow/long window, slightly, from 100 to 95. The resulting impact of a slight decrease from 100 to 95 for SMA Slow/long window was that the strategy performed better than both the actual returns as well as the original strategy returns. From 2015 through mid/late 2017 the strategy returns for the SMA-Window Tuning algorithm performed the same as the actual returns. From mid/late 2017 through mid-2018 the strategy returns for the SMA-Window Tuning algorithm performed worse than the actual returns. And from mid-2018 through 2021 the strategy returns of the baseline algorithm performed better than that of the actual returns. From this we can colclude that although the SMA-Window Tuning algorithms strategy returns did perform better than that of the actual returns for almost three years, since the SMA-Window Tuning algorithms strategy returns were worse or equal to that of the actual returns for the vast majority of the timeframe, we can conclude that the SMA-Window Tuning algorithm did not perform well and instead has a lot of work to be done to improve it.
 
 ## Tuned
 
