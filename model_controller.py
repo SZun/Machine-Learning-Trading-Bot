@@ -104,7 +104,15 @@ class Model_Controller:
         label_fontsize,ticks_fontsize = 18,14
         
         # Plotting the cumulative actual vs strategy returns 
-        (1 + self.df[[self.actual_returns, self.strategy_returns]]).cumprod().plot(figsize=(20,10), linestyle=(0, (3, 1, 1, 1, 1, 1)));
+        (1 + self.df[[self.actual_returns, self.strategy_returns]]).cumprod().plot(
+            figsize=(20,10),
+            linewidth=3,
+            color=['#00FFEF','#FFD700'],
+            marker='X',
+            markersize=6,
+            markerfacecolor='#000000',
+            linestyle=(0,(1,1))
+        );
         
         # Setting the legend
         legend = plt.legend(title=self.returns, fontsize=12, loc=4)
